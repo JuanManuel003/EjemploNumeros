@@ -31,7 +31,7 @@ public class Main extends Application {
                 Scene scene = new Scene (ventana);
                 primaryStage.setScene(scene);
                 primaryStage.show();
-                system.out.println("Corriendo con exito");
+                System.out.println("Corriendo con exito");
             }catch(IOException e){
                 System.out.println(e.getMessage());
         }
